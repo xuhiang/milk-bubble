@@ -1,0 +1,151 @@
+/* rest */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	list-style: none;
+}
+ul{
+	text-decoration: none;
+}
+/* 媒体查询 */
+@media screen and (max-width: 767px){
+	#navbar .nav-container ul{
+		display: block;
+		float: left;
+		font-size: ;
+	}
+	#navbar h1{
+		width: 100%;
+		font-size: 20px;
+	}
+	
+}
+/* all */
+html,body{
+	background-color: #eeeeee;
+	margin: 0 auto;
+}
+#navbar{
+	display: flex;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	justify-content: space-between; 
+	align-items: center;
+	box-shadow: 0 1px 2px 0 rgba(221, 221, 221, 0.6);
+	transition: background-color 0.4s;
+	height: 50px;
+}
+#navbar .nav-container{
+	margin: 0 auto;
+	max-width: 1100px;
+}
+#navbar .nav-container ul{
+	float: right;
+	list-style-type: none;
+}
+#navbar .nav-container ul li{
+	float: right;
+}
+#navbar .nav-container ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	color: #000;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+	color: #00ade6;
+}
+#navbar h1 a{
+	color: #00ade6;
+	display:flex;
+	align-items: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+/* 媒体查询 */
+@media screen and (max-width:767px){
+	.top-container{
+		width: 100%;
+		height: 50vh;
+	}
+	.top-container h1{
+		font-size: 20px;
+		letter-spacing: 0;
+		height: 50vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
+.article{
+	width: 1900px;
+	margin: 0 auto;
+}
+/* 字体图标*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?flph1r');
+  src:  url('../fonts/icomoon.eot?flph1r#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?flph1r') format('truetype'),
+    url('../fonts/icomoon.woff?flph1r') format('woff'),
+    url('../fonts/icomoon.svg?flph1r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icon-compass{
+	padding-top: 10px;
+	font-family: 'icomoon';
+	font-size: 50px;
+}
+.font{
+	width: 33.33%;
+	float: left;
+	background-color: #00aaff;
+	color: #fff;
+	text-align: center;
+}
+.font1{
+	width: 33.33%;
+	float: left;
+	background-color: #fff;
+	color: #00aaff;
+	text-align: center;
+}
+.font2{
+	width: 33.33%;
+	float: right;
+	background-color: #00aaff;
+	color: #fff;
+	text-align: center;
+}
+.icon-spoon-knife{
+	padding-top: 10px;
+	font-family: 'icomoon';
+	font-size: 50px;
+}
+.icon-checkmark{
+	padding-top: 10px;
+	font-family: 'icomoon';
+	font-size: 50px;
+}
+/* footer */
+.copy{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+	letter-spacing: 1px;
+	height: 50px;
+}
+.text-primary{
+	color: #00ade6;
+}
+.s{
+	height: 100vh;
+}

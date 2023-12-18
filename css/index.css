@@ -1,0 +1,51 @@
+/* banner */
+.top-container{
+	background-image: url(../img/草原2.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top-container h1{
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+/* article */
+.intro-t{
+	color: #00ade6;
+	text-align: center;
+	padding-top: 20px;
+}
+.intro-p{
+	padding-top: 10px;
+	float: left;
+	width: 50%;
+}
+.intro-p img{
+	height: 100%;
+	width: 100%;
+}
+.intro{
+	float: right;
+	width: 44%;
+	text-align: center;
+	height: 100%;
+	padding:50px 30px;
+	overflow: hidden;
+}
+/* 媒体查询 */
+@media screen and (max-width:767px){
+	.intro-p{
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+	}
+	.intro{
+		float: left;
+		width: 100%;
+	}
+}
